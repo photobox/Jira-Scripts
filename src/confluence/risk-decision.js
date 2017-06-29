@@ -1,4 +1,3 @@
-alert(42)
 $.getJSON('http://jira.photobox.com/rest/api/latest/issue/SEC-267', function(data) 
 { 
 	$('#Gdpr-Implications').html(data.fields.customfield_12694); 
