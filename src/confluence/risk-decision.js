@@ -1,4 +1,4 @@
-jira_Url = 'http://jira.photobox.com/rest/api/latest/issue/' + jira_id ;
+jira_Url = 'http://jira.photobox.com/rest/api/latest/issue/' + jira_Id ;
 $.getJSON(jira_Url, function(data) 
 { 
 	
