@@ -1,5 +1,6 @@
  .decision-table {
-  width    : 100%
+  color    : red;
+  width    : 100%;
   padding  : 15px;
   border   : 0px solid;
   td {
@@ -10,7 +11,7 @@
 
 .decision-action-table {
  tr {
-  width:50%
+  width: 50%
  }
- width: 100%
+ width : 100%;
 }
