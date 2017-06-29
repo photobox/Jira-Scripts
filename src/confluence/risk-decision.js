@@ -12,8 +12,9 @@ $.get('https://photobox.github.io/Jira-Scripts/src/confluence/risk-decision.html
                 $('#Gdpr-Implications'	     ).html(data.fields.customfield_12694); 
                 $('#Risk-Implications'	     ).html(data.fields.customfield_12695); 
                 $('#Assumptions-Dependencies').html(data.fields.customfield_12696); 
-                $('#Decision-Text'           ).html(data.fields.customfield_12697); 
+                $('#Decision-Final-Text'     ).html(data.fields.customfield_12697); 
                 $('#Budget-Costs'            ).html(data.fields.customfield_12698); 
+                $('#Risk-Decision-Intro'     ).html(data.fields.customfield_12699); 
                 _data = data 
             } )
     })
