@@ -1,18 +1,15 @@
  .decision-table {
-  color    : black;
-  width    : 100%;
-  padding  : 15px;
-  border   : 0px solid;
-  td {
-   padding         : 25px
-   'vertical-align': top
-  }
+   color    : black;
+   width    : 100%;
+   padding  : 15px;
+   border   : 0px solid;
+   td {
+    padding        : 25px;
+    vertical-align : top;
+   }
  }
 
 .decision-action-table {
- td {
-  width: 50%
- }
  width : 100%;
 }
 
