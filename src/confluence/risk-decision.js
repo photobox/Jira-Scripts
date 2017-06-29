@@ -13,6 +13,7 @@ $.get('https://photobox.github.io/Jira-Scripts/src/confluence/risk-decision.html
                 $('#Risk-Implications'	     ).html(data.fields.customfield_12695); 
                 $('#Assumptions-Dependencies').html(data.fields.customfield_12696); 
                 $('#Decision-Text'           ).html(data.fields.customfield_12697); 
+                $('#Budget-Costs'            ).html(data.fields.customfield_12698); 
                 _data = data 
             } )
     })
