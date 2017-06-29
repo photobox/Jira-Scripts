@@ -5,7 +5,7 @@ $.get('https://photobox.github.io/Jira-Scripts/src/confluence/risk-decision.html
         $('#html_Block').html(html)
         $.getJSON(jira_Url, function(data) 
             { 
-                $('#Issue_Link'              ).html('AAAAAA<a href=http://jira.photobox.com/browse/' + jira_Id + '>' + jira_Id + '</a>')
+                $('#Issue_Link'              ).html('<a href=http://jira.photobox.com/browse/' + jira_Id + '>' + jira_Id + '</a>')
 
                 $('#Summary'                 ).html(data.fields.summary          ); 
                 $('#Description'      	     ).html(data.fields.description      ); 
