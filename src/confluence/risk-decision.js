@@ -1,4 +1,3 @@
-alert(jira_Id)
 jira_Url = 'http://jira.photobox.com/rest/api/latest/issue/' + jira_id ;
 $.getJSON(jira_Url, function(data) 
 { 
