@@ -3,10 +3,14 @@
   padding  : 15px;
   border   : 0px solid;
   td {
-   vertical-align: top
+   padding         : 15px
+   'vertical-align': top
   }
  }
 
 .decision-action-table {
+ tr {
+  width:50%
+ }
  width: 100%
 }
