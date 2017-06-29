@@ -4,14 +4,16 @@
   padding  : 15px;
   border   : 0px solid;
   td {
-   padding         : 15px
+   padding         : 25px
    'vertical-align': top
   }
  }
 
 .decision-action-table {
- tr {
+ td {
   width: 50%
  }
  width : 100%;
 }
+
+.pagebreak { page-break-before: always; }
